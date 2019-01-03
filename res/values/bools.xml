@@ -52,10 +52,7 @@
     <bool name="led_settings_category_isVisible">false</bool>
 
 <!-- BOOLEANS FOR FEATURES -->
-    <!-- Whether to display Motion Sense setting -->
-    <bool name="has_aware">false</bool>
-
-    <!-- Whether to display active edge category -->
-    <bool name="has_active_edge">false</bool>
+    <!-- Whether to display 3 mode display cutout setting -->
+    <bool name="has_cutout">false</bool>
 
 </resources>

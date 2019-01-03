@@ -31,11 +31,13 @@ public class StatusBarTab extends SettingsPreferenceFragment implements
 
     private static final String BATTERY_CATEGORY = "battery_options_category";
     private static final String CLOCK_OPTIONS_CATEGORY = "clock_options_category";
+    private static final String PREF_KEY_CUTOUT = "cutout_settings";
     private static final String TRAFFIC_CATEGORY = "traffic_category";
     private static final String STATUS_BAR_ITEMS_CATEGORY = "status_bar";
 
     private CardPreference mBattery;
     private CardPreference mClockOptions;
+    private CardPreference mCutoutPref;
     private CardPreference mTraffic;
     private CardPreference mStatusBarItems;
 
@@ -49,13 +51,20 @@ public class StatusBarTab extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(mBattery);
         } else {
             mBattery = (CardPreference) findPreference(BATTERY_CATEGORY);
-        } 
+        }
 
         CardPreference mClockOptions = findPreference("clock_options_category");
         if (!getResources().getBoolean(R.bool.clock_category_isVisible)) {
             getPreferenceScreen().removePreference(mClockOptions);
         } else {
             mClockOptions = (CardPreference) findPreference(CLOCK_OPTIONS_CATEGORY);
+        }
+
+        CardPreference mCutoutPref = findPreference("cutout_settings");
+        if (!getResources().getBoolean(R.bool.has_cutout)) {
+            getPreferenceScreen().removePreference(mCutoutPref);
+        } else {
+            mCutoutPref = (CardPreference) findPreference(PREF_KEY_CUTOUT);
         }
 
         CardPreference mTraffic = findPreference("traffic_category");
