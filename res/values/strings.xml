@@ -743,4 +743,11 @@
     <string name="smart_media_auto_show_title">Auto show (0 to disable)</string>
     <string name="smart_media_auto_hide_title">Auto hide (0 to disable)</string>
 
+    <!-- Synthetic Clock Settings -->
+    <string name="lock_synthetic_clock_title">Synthetic Clock</string>
+    <string name="file_image_select_title">Select Image</string>
+    <string name="file_image_select_summary">Select a Custom Image"</string>
+    <string name="synthetic_clock_format_title">Synthetic Clock format</string>
+    <string name="synthetic_date_format_title">Synthetic Date format</string>
+
 </resources>
