@@ -719,6 +719,14 @@
     <!-- Lock Owner Info Position -->
     <string name="lock_owner_info_position_title">Owner Info Position</string>
 
+    <!-- Quick Settings Header Text -->
+    <string name="qs_header_text_container_title">QS Header Text</string>
+    <string name="qs_header_text_container_summary">Show text info in quick settings header</string>
+
+    <!-- Quick Settings Footer Page Indicator -->
+    <string name="qs_footer_page_indicator_title">Page Indicator</string>
+    <string name="qs_footer_page_indicator_summary">Show page indicator in quick settings footer</string>
+
     <!-- Synth Smart Media! -->
     <string name="synth_smart_media_title">Synth Smart Media</string>
     <string name="synth_smart_media_summary">Enable a Media Player on Lockscreen like Samsung One UI</string>
