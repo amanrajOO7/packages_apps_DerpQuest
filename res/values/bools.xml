@@ -36,6 +36,7 @@
     <bool name="battery_category_isVisible">true</bool>
     <bool name="clock_category_isVisible">true</bool>
     <bool name="traffic_category_isVisible">true</bool>
+    <bool name="ticker_category_isVisible">true</bool>
     <bool name="statusbar_icon_blacklist_category_isVisible">true</bool>
 
     <!-- LockScreen tab -->

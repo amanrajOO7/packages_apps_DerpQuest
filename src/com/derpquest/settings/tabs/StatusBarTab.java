@@ -32,11 +32,13 @@ public class StatusBarTab extends SettingsPreferenceFragment implements
     private static final String BATTERY_CATEGORY = "battery_options_category";
     private static final String CLOCK_OPTIONS_CATEGORY = "clock_options_category";
     private static final String TRAFFIC_CATEGORY = "traffic_category";
+    private static final String TICKER_CATEGORY = "ticker_category";
     private static final String STATUS_BAR_ITEMS_CATEGORY = "status_bar";
 
     private CardPreference mBattery;
     private CardPreference mClockOptions;
     private CardPreference mTraffic;
+    private CardPreference mTicker;
     private CardPreference mStatusBarItems;
 
     @Override
@@ -63,6 +65,13 @@ public class StatusBarTab extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(mTraffic);
         } else {
             mTraffic = (CardPreference) findPreference(TRAFFIC_CATEGORY);
+        }
+
+        CardPreference mTicker = findPreference("ticker");
+        if (!getResources().getBoolean(R.bool.ticker_category_isVisible)) {
+            getPreferenceScreen().removePreference(mTicker);
+        } else {
+            mTicker = (CardPreference) findPreference(TICKER_CATEGORY);
         }
 
         CardPreference mStatusBarItems = findPreference("status_bar");

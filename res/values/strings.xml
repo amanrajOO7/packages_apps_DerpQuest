@@ -57,6 +57,8 @@
     <string name="clock_options_summary">Set view options of time &amp; date in statusbar</string>
     <string name="traffic_title">Network indicator</string>
     <string name="traffic_summary">Enable &amp; configure network indicator in statusbar</string>
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Enable the statusbar ticker and configure ticker related tweaks</string>
     <string name="status_bar_items_title">Statusbar items</string>
     <string name="status_bar_items_summary">Configure statusbar indicators</string>
 
@@ -763,5 +765,14 @@
     <string name="qs_panel_image_enabled_title">QS Background Image</string>
     <string name="qs_panel_image_enabled_summary">Show a image in QS Background</string>
     <string name="qs_background_file_select_title">Background Image</string>
+
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Notifications Ticker</string>
+    <string name="status_bar_show_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
+    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
 
 </resources>
