@@ -822,7 +822,9 @@
     <string name="ambient_doze_brightness_title">Ambient display brightness</string>
     <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
 
-    <!-- Colored Statusbar Icons -->
+    <!-- Colored Statusbar & Header Icons -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+    <string name="header_icons_style">Colored Header Icons</string>
+    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires SystemUI restart)</string>
 </resources>
