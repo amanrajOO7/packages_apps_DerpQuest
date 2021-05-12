@@ -30,6 +30,12 @@
         android:summary="@string/gaming_mode_summary"
         android:fragment="com.derpquest.settings.fragments.system_misc.GamingMode" />
 
+    <Preference
+        android:key="ticker_settings"
+        android:title="@string/ticker_screen_title"
+        android:summary="@string/ticker_screen_summary"
+        android:fragment="com.derpquest.settings.fragments.statusbar.Ticker"/>
+
     <com.derp.support.preference.SystemSettingSwitchPreference
         android:key="alert_slider_notifications"
         android:title="@string/alert_slider_notifications_title"
